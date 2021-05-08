@@ -1,0 +1,14 @@
+{{range $name, $taxonomy := .Site.Taxonomies.categories}} {{ $cnt := .Count }}
+{{ with $.Site.GetPage (printf "/categories/%s" $name) }}
+<div class="widgetcategory">
+<ul>
+<li>
+<span class="left-align">
+  <a href={{ .RelPermalink }} title="All pages with category <i>{{$name}}</i>">{{$name}}</a>
+</span>
+({{$cnt}})
+</li>    
+</ul>
+</div>  
+{{end}}
+{{end}}

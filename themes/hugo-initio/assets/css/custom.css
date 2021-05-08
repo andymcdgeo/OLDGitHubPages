@@ -1,0 +1,249 @@
+a {
+    color: #14af4a;
+}
+
+.section-title {
+    padding-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #14af4a;
+    padding: 0.3em;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #147900;
+    text-decoration: none;
+}
+
+
+
+
+/*********************************************************************
+
+HEADER SECTION
+
+*********************************************************************/
+
+.social-head {
+    padding-top: 20px;
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.social-head a{
+    color: #aaa;
+}
+
+.social-head a:hover{
+    color: #fff;
+}
+
+
+/*********************************************************************
+
+INDEX SECTIONS
+
+*********************************************************************/
+
+#about-me img {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Projects */
+
+#projects {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-img:before{
+    background-color: #fff;
+}
+.card-img {
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: .8s all;
+}
+
+.card-img:hover {
+    -webkit-filter: contrast(120%) grayscale(80%);
+}
+
+.card {
+    /* margin-top: 30px; */
+    padding-bottom: 10px;
+    border: 0.1px solid #d3d3d3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fbfbfb;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+} 
+
+.card-text {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+.card-img {
+    position: relative;
+    width: 100%;
+}
+
+.project-title {
+    text-align: left;
+    padding-left: 10px;
+    border-top: #d3d3d3 1px solid;
+}
+
+/*********************************************************************
+
+BLOG SECTIONS
+
+*********************************************************************/
+
+.publication-paper {
+    padding-top: 10px;
+}
+.blog-roll {
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.blog-post {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.blog-post h3 a{
+    color: #666666;
+}
+
+.fa-calendar-alt, .fa-clock {
+    margin-right: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #14af4a;
+}
+
+.fa-clock, .fa-tags {
+    margin-right: 5px;
+    margin-left: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #14af4a;
+}
+
+.blog-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.post-info {
+    padding-bottom: 10px;
+}
+
+.post-info ul {
+    display: inline;
+    /* float: left; */
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.post-info ul li {
+    display: inline-block;
+}
+
+.post-tags a{
+    color: #666;
+}
+
+
+/* Blog Sidebar */
+
+.widget{
+    margin-bottom: 30px;
+}
+
+.widget h4 {
+    padding-bottom: 10px;
+}
+
+.widget input[type=text] {
+    float: left;
+    padding: 5px;
+    border: 1px solid grey;
+    width: 80%;
+}
+
+.widget form.search button {
+    color: grey;
+    width:10%;
+    /* border-left: none; */
+    float: left;
+    /* border: 1px sold grey; */
+    cursor: pointer;
+    padding: 4px;
+    background-color:#14af4a;
+    color: white;
+}
+
+/* Tags */
+.tagbutton {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    color: #666;
+}
+
+.tagbutton:hover {
+    border: 1px solid #14af4a;
+    background-color: #14af4a;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.widgetcategory {
+    border-bottom: 1px solid #d3d3d3;
+    /* padding-bottom: 5px; */
+}
+
+.widgetcategory ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.widgetcategory .left-align {
+    float: left;
+}
+
+.widgetcategory .left-align {
+    float: right;
+    text-align: right;
+}

@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<main id="main">
+
+
+    <div class="container-fluid padding" id="stats">
+        {{ range .Pages }}
+
+        <div class="row padding">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 publication-paper">
+                {{ .Params.authors }} ({{ .Params.Year }}) <b>{{ .Title }}</b> <em>{{ .Params.publication }}</em>
+                <br>
+                <a href="#abstract" data-toggle="collapse">Abstract</a>    
+                <a href={{ .Params.Link }}>Link to Paper</a>
+                <div id="abstract" class="collapse">{{ .Content }}</div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        {{ end }}
+    </div>
+
+
+</main>
+{{ end }}

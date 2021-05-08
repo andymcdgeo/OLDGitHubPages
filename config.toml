@@ -1,0 +1,87 @@
+baseURL = "http://andymcdonald.scot"
+languageCode = "en-uk"
+title = "Andy McDonald"
+theme = "hugo-initio"
+summaryLength = 40
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 30
+  identifier = "blog"
+  url = "/blog/"
+
+[[menu.main]]
+  name = "Publications"
+  weight = 30
+  identifier = "publications"
+  url = "/publications/"
+
+[[menu.main]]
+  name = "Projects"
+  weight = 30
+  identifier = "projects"
+  url = "/projects/"
+
+
+[params]
+  github = "andymcdgeo"
+  name = "Andy McDonald"
+  description = "Petrophysicist | Geoscientist | Data Scientsist"
+  email = "anthony.russel42@example.com"
+  phone = "+234 23 9873237"
+  address = "234 Hidden Pond Road, Ashland City, TN 37015"
+  year = 2021
+  avatar = "images/andy.png"
+  avatarclass = "circle"
+  background = ""
+  banner = "images/johannes-plenio-8UfXsRPubkM-unsplash.jpg"
+  favicon = "images/gt_favicon.png"
+  DateForm = "January 2, 2006"
+  showSubheader = true
+  showServices = true
+  showRecentWorks = true
+  showDownload = true
+  showClients = true
+
+
+  project1_img = "images/project_las_explorer.png"
+  project2_img = "images/project_python_petrophysics.png"
+  project3_img = "images/project_spwla_workshop.png"
+
+  footerEnableContact = false
+  footerEnableFollowme = true
+  footerEnableTextWidget = false
+  footerEnableFormWidget = false
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/andymcdonaldgeo"
+  icon = "fab fa-linkedin"
+  footer = true
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/nickname"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/andymcdgeo"
+    icon = "fab fa-github-square"
+    footer = true
+    sharethis = true
+    network = ""
+[[params.social]]
+	title = "medium"
+	url = "https://andymcdonaldgeo.medium.com"
+    icon = "fab fa-medium"
+    footer = true
+    sharethis = true
+    network = "medium"

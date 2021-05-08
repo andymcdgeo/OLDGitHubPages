@@ -1,0 +1,106 @@
+{{ define "main" }}
+<main id="main">
+
+	<div class="container">
+		<div class="row topspace">
+			<!-- <div class="col-sm-8 col-sm-offset-2"> -->
+				<div class="container" role="main">
+					<div class="row topspace">
+						<!-- <div class="col-sm-8 col-sm-offset-2"> -->
+							<div class="row padding">
+								<h2>Blog Posts</h2>
+							</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-9">
+							<div class="row blog-roll">
+								{{ range .Paginator.Pages }}
+								<!-- Blog Posts -->
+								<section class="blog-posts">
+									<div class="container padding" id="blogpost">
+										<div class="row">
+											<div class="col-md-12">
+												<article class="blog-post">
+													<div class="row">
+														<div>
+															<!-- <img src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="..."> -->
+															{{ if isset .Params "featured_image" }}<img class="blog-image" src="{{ index .Params "featured_image"}}" alt="...">{{end}}
+														</div>
+														<div>
+															<div class="post-info">
+															<h3><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h3>
+															<i class="far fa-calendar-alt"></i> {{- .Date.Format "January 2, 2006" -}}
+															<i class="far fa-clock"></i> {{ .ReadingTime }} min read
+															{{ partial "tags.html" .}}
+															</div>
+															<p>{{ .Summary }}</p>
+															<a class="btn-primary" href="{{ .Permalink }}">Read More</a>
+														</div>
+													</div>
+												</article>
+											</div>
+										
+										</div>
+									</div>
+								</section>
+									{{ end }}
+							</div>
+						</div>
+					<!-- Sidebar -->
+					<div class="col-sm-3 position-fixed">
+						<div class="row widget">
+							<h4>Search</h4>
+						<form class="search">
+							<input type="text" placeholder="Search....">
+							<button type="submit"><i class="fa fa-search"></i></button>
+						</form>
+						</div>
+						<div class="row widget">
+							<h4>Categories</h4>
+							{{ partial "allcategories.html" .}}
+						</div>
+						<div class="row widget">
+							<h4>Tags</h4>
+							{{ partial "alltags.html" .}}
+						</div>
+						<div class="row widget">
+							<h4>Newsletter</h4>
+							<p>Subscribe to the weekly newsletter here</p>
+						</div>
+						<div class="row">Nav</div>
+					  </div>
+					</div>
+				  </div>
+			<!-- </div> -->
+		</div>
+
+		<center class="">
+			<ul class="pagination">
+				{{ template "_internal/pagination.html" . }}
+			</ul>
+		</center>
+	</div> <!-- /container -->
+
+</main>
+
+<!-- 
+<article class="post">
+	<header class="entry-header">
+		<div class="entry-meta">
+			<span class="posted-on">
+				<time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
+					{{- .Date.Format "January 2, 2006" -}}
+				</time>
+			</span>
+		</div>
+		<h1 class="entry-title">
+			<a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a>
+			<br>
+		</h1>
+	</header>
+	<div class="entry-content">
+		{{ .Summary }}
+	</div>
+</article> -->
+
+{{ end }}
