@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Andy McDonald</title>
-    <link>http://andymcdonald.scot/projects/</link>
+    <link>http://andymcdgeo.github.io/projects/</link>
     <description>Recent content in Projects on Andy McDonald</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="http://andymcdonald.scot/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language><atom:link href="http://andymcdgeo.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LAS Summariser</title>
-      <link>http://andymcdonald.scot/projects/las_summariser/</link>
+      <link>http://andymcdgeo.github.io/projects/las_summariser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://andymcdonald.scot/projects/las_summariser/</guid>
+      <guid>http://andymcdgeo.github.io/projects/las_summariser/</guid>
       <description>LAS Summariser The las summariser is&amp;hellip;..</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://andymcdonald.scot/projects/projects/</link>
+      <link>http://andymcdgeo.github.io/projects/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://andymcdonald.scot/projects/projects/</guid>
+      <guid>http://andymcdgeo.github.io/projects/projects/</guid>
       <description>Project 1
 Project 2</description>
     </item>

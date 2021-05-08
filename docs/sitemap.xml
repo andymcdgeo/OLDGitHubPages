@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://andymcdonald.scot/about/about/</loc>
+    <loc>http://andymcdgeo.github.io/about/about/</loc>
   </url><url>
-    <loc>http://andymcdonald.scot/projects/las_summariser/</loc>
+    <loc>http://andymcdgeo.github.io/projects/las_summariser/</loc>
   </url><url>
-    <loc>http://andymcdonald.scot/</loc>
+    <loc>http://andymcdgeo.github.io/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/publications/2019_arkalgud_etal/</loc>
+    <loc>http://andymcdgeo.github.io/publications/2019_arkalgud_etal/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/blog/</loc>
+    <loc>http://andymcdgeo.github.io/blog/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/publications/2020_mcdonald/</loc>
+    <loc>http://andymcdgeo.github.io/publications/2020_mcdonald/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/publications/</loc>
+    <loc>http://andymcdgeo.github.io/publications/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/blog/secondpost/</loc>
+    <loc>http://andymcdgeo.github.io/blog/secondpost/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/categories/</loc>
+    <loc>http://andymcdgeo.github.io/categories/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/blog/2021-04-21-loading-well-log-data-from-dlis-using-python/</loc>
+    <loc>http://andymcdgeo.github.io/blog/2021-04-21-loading-well-log-data-from-dlis-using-python/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/tags/petrophysics/</loc>
+    <loc>http://andymcdgeo.github.io/tags/petrophysics/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/categories/petrophysics/</loc>
+    <loc>http://andymcdgeo.github.io/categories/petrophysics/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/categories/python/</loc>
+    <loc>http://andymcdgeo.github.io/categories/python/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/tags/python/</loc>
+    <loc>http://andymcdgeo.github.io/tags/python/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/tags/</loc>
+    <loc>http://andymcdgeo.github.io/tags/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/blog/2020-10-26-las-file-load-and-display/</loc>
+    <loc>http://andymcdgeo.github.io/blog/2020-10-26-las-file-load-and-display/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdonald.scot/projects/projects/</loc>
+    <loc>http://andymcdgeo.github.io/projects/projects/</loc>
   </url><url>
-    <loc>http://andymcdonald.scot/about/</loc>
+    <loc>http://andymcdgeo.github.io/about/</loc>
   </url><url>
-    <loc>http://andymcdonald.scot/projects/</loc>
+    <loc>http://andymcdgeo.github.io/projects/</loc>
   </url>
 </urlset>

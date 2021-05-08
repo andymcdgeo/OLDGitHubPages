@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Andy McDonald</title>
-    <link>http://andymcdonald.scot/about/</link>
+    <link>http://andymcdgeo.github.io/about/</link>
     <description>Recent content in Abouts on Andy McDonald</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="http://andymcdonald.scot/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language><atom:link href="http://andymcdgeo.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://andymcdonald.scot/about/about/</link>
+      <link>http://andymcdgeo.github.io/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://andymcdonald.scot/about/about/</guid>
+      <guid>http://andymcdgeo.github.io/about/about/</guid>
       <description>Hi! I’m Andy. I am a petrophysicist / data scientist within the oil in gas industry and based in Aberdeen, Scotland. I have over 14 years experience petrophysics, log analysis and geology. Over the years I have developed my skills in Python and continuing to learn everyday.</description>
     </item>
     
