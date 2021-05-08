@@ -1,4 +1,4 @@
-baseURL = "http://andymcdgeo.github.io"
+baseURL = "http://andymcdgeo.github.io/"
 languageCode = "en-uk"
 title = "Andy McDonald"
 theme = "hugo-initio"
