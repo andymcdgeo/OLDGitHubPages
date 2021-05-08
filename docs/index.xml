@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andy McDonald</title>
+    <link>http://andymcdonald.scot/</link>
+    <description>Recent content on Andy McDonald</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 23 Apr 2021 10:00:02 -0400</lastBuildDate><atom:link href="http://andymcdonald.scot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://andymcdonald.scot/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdonald.scot/about/about/</guid>
+      <description>Hi! I’m Andy. I am a petrophysicist / data scientist within the oil in gas industry and based in Aberdeen, Scotland. I have over 14 years experience petrophysics, log analysis and geology. Over the years I have developed my skills in Python and continuing to learn everyday.</description>
+    </item>
+    
+    <item>
+      <title>LAS Summariser</title>
+      <link>http://andymcdonald.scot/projects/las_summariser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdonald.scot/projects/las_summariser/</guid>
+      <description>LAS Summariser The las summariser is&amp;hellip;..</description>
+    </item>
+    
+    <item>
+      <title>Automated Selection of Inputs for Log Prediction Models Using Domain Transfer Analysis DTA Derivative</title>
+      <link>http://andymcdonald.scot/publications/2019_arkalgud_etal/</link>
+      <pubDate>Fri, 23 Apr 2021 10:00:02 -0400</pubDate>
+      
+      <guid>http://andymcdonald.scot/publications/2019_arkalgud_etal/</guid>
+      <description>Automation has impacted our everyday lives through increased speed of operations and execution of decisions. However, these processes and decisions are wholly dependent on choices made during automation model creation. Quick selection of input variables is key to the predictive modelling process; allowing for optimization of the final model.</description>
+    </item>
+    
+    <item>
+      <title>Data Quality Considerations for Petrophysical Machine Learning Models</title>
+      <link>http://andymcdonald.scot/publications/2020_mcdonald/</link>
+      <pubDate>Fri, 23 Apr 2021 10:00:02 -0400</pubDate>
+      
+      <guid>http://andymcdonald.scot/publications/2020_mcdonald/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test Post2</title>
+      <link>http://andymcdonald.scot/blog/secondpost/</link>
+      <pubDate>Fri, 23 Apr 2021 10:00:02 -0400</pubDate>
+      
+      <guid>http://andymcdonald.scot/blog/secondpost/</guid>
+      <description>This is a test for x in y: print(x) </description>
+    </item>
+    
+    <item>
+      <title>Loading Well Log Data From DLIS using Python</title>
+      <link>http://andymcdonald.scot/blog/2021-04-21-loading-well-log-data-from-dlis-using-python/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdonald.scot/blog/2021-04-21-loading-well-log-data-from-dlis-using-python/</guid>
+      <description>Loading Well Log Data From DLIS using Python A short tutorial on loading and displaying processed acoustic waveform data using dlisio and matplotlib Introduction There are a number of different formats that well log and petrophysical data can be stored in.</description>
+    </item>
+    
+    <item>
+      <title>Loading and Displaying Well Log Data from LAS Files with Python</title>
+      <link>http://andymcdonald.scot/blog/2020-10-26-las-file-load-and-display/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdonald.scot/blog/2020-10-26-las-file-load-and-display/</guid>
+      <description>Anyone who has worked or is currently working within the oil and gas industry will understand that there are a large variety of formats that well log data can be stored in. Some of the common formats that we as petrophysicists work with include LAS, ASCII and CSV files.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://andymcdonald.scot/projects/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdonald.scot/projects/projects/</guid>
+      <description>Project 1
+Project 2</description>
+    </item>
+    
+  </channel>
+</rss>

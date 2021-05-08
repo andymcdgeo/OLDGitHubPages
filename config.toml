@@ -3,6 +3,7 @@ languageCode = "en-uk"
 title = "Andy McDonald"
 theme = "hugo-initio"
 summaryLength = 40
+publishDir = "docs"
 
 [[menu.main]]
   name = "Home"
