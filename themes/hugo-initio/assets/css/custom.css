@@ -1,3 +1,8 @@
+body {
+    font-size: 17px;
+}
+
+
 a {
     color: #14af4a;
 }
@@ -69,10 +74,19 @@ INDEX SECTIONS
 }
 .card-img {
     height: 300px;
-    width: 100%;
+    width: 300px;
+    position: absolute;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     -webkit-transition: .8s all;
+}
+
+.card img {
+    width: auto;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
 }
 
 .card-img:hover {
@@ -83,27 +97,69 @@ INDEX SECTIONS
     /* margin-top: 30px; */
     padding-bottom: 10px;
     border: 0.1px solid #d3d3d3;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 20px;
     background-color: #fbfbfb;
     /* margin-left: 10px;
     margin-right: 10px; */
     box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 } 
 
 .card-text {
-    padding: 10px;
-    text-align: justify;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    color: #999;
 }
 
 
 .card-img {
     position: relative;
+    background-size: cover;
     width: 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-img--lasexplorer {
+    background-image: url("/images/project_las_explorer.png");
+}
+
+.card-img--pythonpetro {
+    background-image: url("/images/project_python_petrophysics.png");
+}
+
+.card-img--spwla2021 {
+    background-image: url("/images/project_spwla_workshop.png");
+}
+
+.card .viewmore {
+    border: 1px #999 solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card .viewmore:hover {
+    text-decoration: none;
+    background-color: #14af4a;
+    color: white;
 }
 
 .project-title {
     text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* letter-spacing: 2px; */
+    font-size: 1.15rem;
+    padding-top: 10px;
     padding-left: 10px;
     border-top: #d3d3d3 1px solid;
 }
@@ -243,7 +299,7 @@ BLOG SECTIONS
     float: left;
 }
 
-.widgetcategory .left-align {
+/* .widgetcategory .right-align {
     float: right;
     text-align: right;
-}
+} */
