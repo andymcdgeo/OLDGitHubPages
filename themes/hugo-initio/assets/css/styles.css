@@ -224,6 +224,7 @@ a:hover {
   background-color: #f4f4f4;
   background-position: top;
   background-size: cover;
+  
   background-attachment: fixed;
   color: #fff;
   background-blend-mode: multiply;
