@@ -220,16 +220,17 @@ a:hover {
 
 
 **********************************************************************/
-#head {
+/* #head {
   background-color: #f4f4f4;
   background-position: top;
   background-size: cover;
-  
   background-attachment: fixed;
   color: #fff;
   background-blend-mode: multiply;
   padding: 30px 0 35px 0;
-}
+  width: 100%;
+  max-width: 100%;
+} */
 
 #head img {
   display: block;
