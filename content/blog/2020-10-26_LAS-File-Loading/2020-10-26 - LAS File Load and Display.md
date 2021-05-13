@@ -3,10 +3,15 @@ title: "Loading and Displaying Well Log Data from LAS Files with Python"
 date: "2020-10-26"
 draft: false
 tags: ["petrophysics", "python"]
-featured_image: "featured/firstpost.jpeg"
+featured_image: "/images/featured/firstpost.jpeg"
+images: ["images/blog/2020/10/code_img.jpeg"]
+featured_image_alt: Alt tag for the featured image
 ---
 
-![Photo by [Chris Ried](https://unsplash.com/@cdr6934?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/12032/0*yP-lIuYoYyjTa2hj)
+<!-- ![Photo by [Chris Ried](https://unsplash.com/@cdr6934?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/12032/0*yP-lIuYoYyjTa2hj) -->
+
+{{< figure src="/images/andy.jpg" title="Steve Francia" >}}
+
 
 Anyone who has worked or is currently working within the oil and gas industry will understand that there are a large variety of formats that well log data can be stored in. Some of the common formats that we as petrophysicists work with include LAS, ASCII and CSV files. Many of these formats can easily be loaded into a Python script ot Jupyter Notebook.
 

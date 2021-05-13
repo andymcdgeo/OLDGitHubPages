@@ -16,5 +16,23 @@
       <description>Loading Well Log Data From DLIS using Python A short tutorial on loading and displaying processed acoustic waveform data using dlisio and matplotlib Introduction There are a number of different formats that well log and petrophysical data can be stored in.</description>
     </item>
     
+    <item>
+      <title>Adding Formation Data to a Well Log Plot</title>
+      <link>http://andymcdgeo.github.io/blog/2021-02-28-adding-formation-data-to-a-well-log-plot/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdgeo.github.io/blog/2021-02-28-adding-formation-data-to-a-well-log-plot/</guid>
+      <description>Taking well log plots one step further using Python and matplotlib Well log plots are a common visualization tool within geoscience and petrophysics. They allow easy visualization of data (for example, Gamma Ray, Neutron Porosity, Bulk Density, etc) that has been acquired along the length (depth) of a wellbore.</description>
+    </item>
+    
+    <item>
+      <title>Loading Multiple Well Log LAS Files Using Python</title>
+      <link>http://andymcdgeo.github.io/blog/2021-02-14-loading-multiple-well-log-las-files-using-python/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdgeo.github.io/blog/2021-02-14-loading-multiple-well-log-las-files-using-python/</guid>
+      <description>Appending Multiple LAS Files to a Pandas Dataframe Log ASCII Standard (LAS) files are a common Oil &amp;amp; Gas industry format for storing and transferring well log data. The data contained within is used to analyze and understand the subsurface, as well as identify potential hydrocarbon reserves.</description>
+    </item>
+    
   </channel>
 </rss>

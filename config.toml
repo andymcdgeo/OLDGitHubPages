@@ -36,12 +36,12 @@ publishDir = "docs"
   description = "Petrophysicist | Geoscientist | Data Scientsist"
   email = "anthony.russel42@example.com"
   phone = "+234 23 9873237"
-  address = "234 Hidden Pond Road, Ashland City, TN 37015"
+  
   year = 2021
   avatar = "images/andy.png"
   avatarclass = "circle"
   background = ""
-  banner = "images/johannes-plenio-8UfXsRPubkM-unsplash.jpg"
+  banner = "images/header_img.jpg"
   favicon = "images/gt_favicon.png"
   DateForm = "January 2, 2006"
   showSubheader = true

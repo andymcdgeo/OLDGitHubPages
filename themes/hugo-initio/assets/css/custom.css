@@ -77,6 +77,11 @@ HEADER SECTION
     padding: 30px 0 35px 0;
 }
 
+.head-shot{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .social-head {
     padding-top: 20px;
     font-size: 0.8em;
@@ -106,7 +111,7 @@ INDEX SECTIONS
 }
 
 
-/* Projects */
+/* Projects & Blog Posts Section */
 
 #projects {
     padding-top: 50px;
@@ -123,11 +128,15 @@ INDEX SECTIONS
 .card-img {
     height: 300px;
     width: 300px;
-    position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
     -webkit-transition: .8s all;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-bottom: #d3d3d3 1px solid;
 }
 
 .card img {
@@ -156,23 +165,33 @@ INDEX SECTIONS
     margin-right: 10px;
 } 
 
-.card-text {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.card-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.project-title {
     text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
+.card-text {
+    text-align: justify;
     color: #999;
+    font-size: 1rem;
+    padding-top: 1rem;
 }
 
-
-.card-img {
-    position: relative;
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.index-blog-post-details{
+    border-top: #d3d3d3 1px solid;
+    font-size: 0.9rem;
 }
+
 
 .card-img--lasexplorer {
     background-image: url("/images/project_las_explorer.png");
@@ -201,15 +220,28 @@ INDEX SECTIONS
     color: white;
 }
 
-.project-title {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: 400;
-    /* letter-spacing: 2px; */
-    font-size: 1.15rem;
-    padding-top: 10px;
-    padding-left: 10px;
-    border-top: #d3d3d3 1px solid;
+
+.index-blog-post-icons {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.blog-cat-tag {
+    top: 10%;
+    position: absolute;
+    background-color:#14af4a;
+    color: white;
+    padding: 0.5rem;
+    display: block;
+}
+
+.blog-cat-tag::before {
+    position: absolute;
+    top: 10%;
+    display: block;
+    color: white;
+    padding: 0.5rem;
+    background-color: #14af4a;
 }
 
 /* Timers / Counters Section */
@@ -398,3 +430,32 @@ BLOG SECTIONS
     float: right;
     text-align: right;
 } */
+
+/*********************************************************************
+
+BLOG PAGE
+
+*********************************************************************/
+
+.post {
+    max-width: 100%;
+}
+
+.post .title{
+    font-weight: 800;
+}
+
+.entry-header .entry-meta {
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    /* font-size: 18px; */
+    font-size: 1.225rem;
+    font-weight:400;
+    color: #a5a5a5;
+    margin: 0 0 15px 0;
+    font-style: normal;
+  }
+
+.title-image {
+    padding-bottom: 2em;
+}

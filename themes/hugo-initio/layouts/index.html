@@ -8,7 +8,7 @@
   <section id="about-me">
     <div class="container" id="about-me">
       <div class="row padding">
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 head-shot">
           <img src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="...">
         </div>
         <div class="col-lg-8 col-sm-6">
@@ -30,7 +30,7 @@
     </div>
   </section>
 
-  <div class="container-fluid" id="fixed" style="background-image:url('{{ .Site.BaseURL }}{{ .Site.Params.banner }}'), 
+  <!-- <div class="container-fluid" id="fixed" style="background-image:url('{{ .Site.BaseURL }}{{ .Site.Params.banner }}'), 
 linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));">
     <div class="row text-center stats-section">
       <div class="col-md-3"><i class="fas fa-book fa-2x"></i>
@@ -51,11 +51,11 @@ linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));">
         <p class="stat-title">cups of coffee</p>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <section id="projects">
-    <div class="container-fluid">
+    <div class="container-fluid bg-grey">
       <div class="row text-center">
         <div class="col-lg-12">
           <h2 class="section-heading">My Projects</h2>
@@ -83,8 +83,9 @@ linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));">
               <div class="card">
                 <div class="card-img card-img--pythonpetro"></div>
                 <!-- <img class="card-img" src="{{ .Site.BaseURL }}{{ .Site.Params.project2_img }}" alt="..."> -->
-                <div class="project-title">Python and Petrophysics</div>
+                
                 <div class="card-body">
+                  <div class="project-title">Python and Petrophysics</div>
                   <p class='card-text'>Python and Petrophysics is a series of Jupyter Notebooks covering the loading and
                     visualisation of well log data, petrophysical interpretation and more.
                   </p>
@@ -96,8 +97,9 @@ linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));">
               <div class="card">
                 <div class="card-img card-img--spwla2021"></div>
                 <!-- <img class="card-img" src="{{ .Site.BaseURL }}{{ .Site.Params.project3_img }}" alt="..."> -->
-                <div class="project-title">SPWLA 2021 ML Workshop</div>
+                
                 <div class="card-body">
+                  <div class="project-title">SPWLA 2021 ML Workshop</div>
                   <p class='card-text'>Workshop for the SPWLA 2021 conference on petrophysical Machine Learning
                     . The workshop covers data QC, supervised and unsupervised learning.
                   </p>
@@ -112,31 +114,32 @@ linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));">
 
 
   <section id="blog-posts">
-    <div class="container-fluid bg-grey">
+    <div class="container-fluid ">
       <div class="row text-center">
         <div class="col-lg-12">
           <h2 class="section-heading">Latest Blog Posts</h2>
           <div class="section-underline"></div>
         </div>
-
         {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
-
-
         <div class="container">
           <div class="row">
             <div class="col-md-4 mb-4">
               <div class="card">
-                <div class="card-img card-img--lasexplorer">
-
-                  <!-- <img src="{{ .Site.BaseURL }}{{ .Site.Params.project1_img }}" alt="..."> -->
+                <div class="card-img">
+                  <div class="blog-cat-tag">Test</div>
+                  {{ if isset .Params "featured_image" }}<img class="blog-image" src="{{ index .Params "featured_image"}}" alt="...">{{end}}
                 </div>
                 <div class="card-body">
                   <div class="project-title">{{ .Title }}</div>
-                  <i class="far fa-calendar-alt"></i> {{- .Date.Format "January 2, 2006" -}}
-                  <i class="far fa-clock"></i> {{ .ReadingTime }} min read
                   <p class='card-text'>{{ .Summary }}</p>
-
-                  <a class="viewmore" href="{{ .Permalink }}">Read More</a>
+                  <a href="{{ .Permalink }}">Read More</a>
+                  <!-- <a class="viewmore" href="">Read More</a> -->
+                  </div>
+                  <div class="index-blog-post-details">
+                    <div class="index-blog-post-icons">
+                      <i class="far fa-calendar-alt"></i> {{- .Date.Format "January 2, 2006" -}}
+                      <i class="far fa-clock"></i> {{ .ReadingTime }} min read
+                      </div>
                 </div>
               </div>
             </div>
@@ -147,7 +150,7 @@ linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));">
   </section>
 
   <section id="about-me">
-    <div class="container" id="about-me">
+    <div class="container bg-grey" id="about-me">
       <div class="row padding">
         <div class="col-lg-4 col-sm-6">
           <img src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="...">

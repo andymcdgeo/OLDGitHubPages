@@ -2,9 +2,9 @@
 title: "Loading Well Log Data From DLIS using Python"
 date: "2021-04-21"
 draft: false
-categories: ["petrophysics", "Python"]
+categories: ["Petrophysics", "Python"]
 tags: ["petrophysics", "python"]
-featured_image: "featured/2021-04-21-DLIS.png"
+featured_image: "/images/featured/2021-04-21_Loading-Well-data-from-dlis-using-python.png"
 ---
 
 

@@ -12,17 +12,14 @@
     <loc>http://andymcdgeo.github.io/publications/2019_arkalgud_etal/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://andymcdgeo.github.io/blog/</loc>
-    <lastmod>2021-04-23T10:00:02-04:00</lastmod>
-  </url><url>
     <loc>http://andymcdgeo.github.io/publications/2020_mcdonald/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
     <loc>http://andymcdgeo.github.io/publications/</loc>
     <lastmod>2021-04-23T10:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://andymcdgeo.github.io/blog/secondpost/</loc>
-    <lastmod>2021-04-23T10:00:02-04:00</lastmod>
+    <loc>http://andymcdgeo.github.io/blog/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://andymcdgeo.github.io/categories/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
@@ -30,10 +27,10 @@
     <loc>http://andymcdgeo.github.io/blog/2021-04-21-loading-well-log-data-from-dlis-using-python/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdgeo.github.io/tags/petrophysics/</loc>
+    <loc>http://andymcdgeo.github.io/categories/petrophysics/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdgeo.github.io/categories/petrophysics/</loc>
+    <loc>http://andymcdgeo.github.io/tags/petrophysics/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://andymcdgeo.github.io/categories/python/</loc>
@@ -45,7 +42,19 @@
     <loc>http://andymcdgeo.github.io/tags/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://andymcdgeo.github.io/blog/2020-10-26-las-file-load-and-display/</loc>
+    <loc>http://andymcdgeo.github.io/blog/2021-02-28-adding-formation-data-to-a-well-log-plot/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/formation-data/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/las-files/</loc>
+    <lastmod>2021-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2021-02-14-loading-multiple-well-log-las-files-using-python/</loc>
+    <lastmod>2021-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2020-10-26_las-file-loading/2020-10-26-las-file-load-and-display/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://andymcdgeo.github.io/projects/projects/</loc>
