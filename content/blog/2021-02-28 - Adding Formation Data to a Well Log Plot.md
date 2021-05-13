@@ -4,7 +4,7 @@ date: "2021-02-28"
 draft: false
 categories: ["Petrophysics", "Python"]
 tags: ["petrophysics", "python", "formation data"]
-featured_image: "/featured/2021-02-28_Adding-formation-data-to-a-well-log-plot.png"
+featured_image: "/images/featured/2021-02-28_Adding-formation-data-to-a-well-log-plot.png"
 ---
 
 ### Taking well log plots one step further using Python and matplotlib
