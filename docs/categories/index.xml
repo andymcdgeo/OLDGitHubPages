@@ -25,5 +25,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Well Log Data</title>
+      <link>http://andymcdgeo.github.io/categories/well-log-data/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdgeo.github.io/categories/well-log-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Quality</title>
+      <link>http://andymcdgeo.github.io/categories/data-quality/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdgeo.github.io/categories/data-quality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LAS Files</title>
+      <link>http://andymcdgeo.github.io/categories/las-files/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://andymcdgeo.github.io/categories/las-files/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

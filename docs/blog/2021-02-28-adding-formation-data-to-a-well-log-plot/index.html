@@ -218,24 +218,22 @@
 <!-- raw HTML omitted -->
 <p>**Lines 3–10 **sets up the log tracks. Here, I am using subplot2grid to control the number of tracks. suplot2grid((1,10), (0,0), rowspan=1, colspan=3) translates to creating a plot that is 10 columns wide, 1 row high and the first few axes spans 3 columns each. This allows us to control the width of each track.</p>
 <p>The last track (ax5) will be used to plot our formation tops information.</p>
-<pre><code>fig, ax = plt.subplots(figsize=(15,10))
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    fig, ax <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">15</span>,<span style="color:#ae81ff">10</span>))
 
-#Set up the plot axes
-    ax1 = plt.subplot2grid((1,10), (0,0), rowspan=1, colspan = 3)
-    ax2 = plt.subplot2grid((1,10), (0,3), rowspan=1, colspan = 3, sharey = ax1)
-    ax3 = plt.subplot2grid((1,10), (0,6), rowspan=1, colspan = 3, sharey = ax1)
-    ax4 = ax3.twiny() 
-    ax5 = plt.subplot2grid((1,10), (0,9), rowspan=1, colspan = 1, sharey = ax1)
-</code></pre>
-<p><strong>Lines 14–19</strong> adds a second set of the axis on top of the existing one. This allows maintaining a border around each track when we come to detach the scale.</p>
-<pre><code>    ax10 = ax1.twiny()
-    ax10.xaxis.set_visible(False)
-    ax11 = ax2.twiny()
-    ax11.xaxis.set_visible(False)
-    ax12 = ax3.twiny()
-    ax12.xaxis.set_visible(False)
-</code></pre>
-<p>**Lines 21–49 **set up the gamma ray track. First, we use ax1.plot to set up the data, line width, and color. Next, we set up the x-axis with a label, an axis color, and a set of limits.</p>
+    <span style="color:#75715e">#Set up the plot axes</span>
+        ax1 <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplot2grid((<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">10</span>), (<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>), rowspan<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, colspan <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>)
+        ax2 <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplot2grid((<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">10</span>), (<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">3</span>), rowspan<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, colspan <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>, sharey <span style="color:#f92672">=</span> ax1)
+        ax3 <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplot2grid((<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">10</span>), (<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">6</span>), rowspan<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, colspan <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>, sharey <span style="color:#f92672">=</span> ax1)
+        ax4 <span style="color:#f92672">=</span> ax3<span style="color:#f92672">.</span>twiny() 
+        ax5 <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplot2grid((<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">10</span>), (<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">9</span>), rowspan<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, colspan <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, sharey <span style="color:#f92672">=</span> ax1)
+</code></pre></div><p><strong>Lines 14–19</strong> adds a second set of the axis on top of the existing one. This allows maintaining a border around each track when we come to detach the scale.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">        ax10 <span style="color:#f92672">=</span> ax1<span style="color:#f92672">.</span>twiny()
+        ax10<span style="color:#f92672">.</span>xaxis<span style="color:#f92672">.</span>set_visible(False)
+        ax11 <span style="color:#f92672">=</span> ax2<span style="color:#f92672">.</span>twiny()
+        ax11<span style="color:#f92672">.</span>xaxis<span style="color:#f92672">.</span>set_visible(False)
+        ax12 <span style="color:#f92672">=</span> ax3<span style="color:#f92672">.</span>twiny()
+        ax12<span style="color:#f92672">.</span>xaxis<span style="color:#f92672">.</span>set_visible(False)
+</code></pre></div><p>**Lines 21–49 **set up the gamma ray track. First, we use ax1.plot to set up the data, line width, and color. Next, we set up the x-axis with a label, an axis color, and a set of limits.</p>
 <p>As ax1 is going to be the first track on the plot, we can assign the y axis label of Depth (m).</p>
 <p>After defining the curve setup, we can add some colored fill between the curve and the right-hand side of the track. See <a href="https://towardsdatascience.com/enhancing-visualization-of-well-logs-with-plot-fills-72d9dcd10c1b">Enhancing Visualization of Well Logs with Plot Fills </a>for details on how this was setup.</p>
 <pre><code># Gamma Ray track

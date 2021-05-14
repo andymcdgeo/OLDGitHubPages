@@ -177,6 +177,8 @@
 <p>The first step with any project is to load in the libraries that we want to use. For this notebook we will be using <a href="https://numpy.org/">NumPy</a> for working with arrays, <a href="https://pandas.pydata.org/">pandas</a> for storing data, and <a href="https://matplotlib.org/">matplotlib</a> for displaying the data. To load the data, we will be using the <a href="https://github.com/equinor/dlisio">dlisio</a> library.</p>
 <p>Also, as we will be working with dataframes to view parameters, which can be numerous, we need to change the maximum number of rows that will be displayed when that dataframe is called. This is achieved by pd.set_option(&lsquo;display.max_rows&rsquo;, 500).</p>
 <!-- raw HTML omitted -->
+<script type="application/javascript" src="https://gist.github.com/andymcdgeo/78d5d97689267e480f22c03571b106f7.js"></script>
+
 <h2 id="loading-a-dlis-file">Loading a DLIS File</h2>
 <p>As we are working with a single DLIS file, we can use the following code to load the file. A physical DLIS file can contain multiple logical files, therefore using this syntax allows the first file to be output to f and any subsequent logical files are placed into tail.</p>
 <!-- raw HTML omitted -->

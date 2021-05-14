@@ -54,8 +54,65 @@
     <loc>http://andymcdgeo.github.io/blog/2021-02-14-loading-multiple-well-log-las-files-using-python/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2021-02-07-displaying-lithology-on-log-plots-using-python/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/lithology/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/categories/well-log-data/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2021-01-31-displaying-logging-while-drill-lwd-image-logs-in-python/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2021-01-27-enhancing-visualisation-of-well-logs-with-plot-fills/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/crossplots/</loc>
+    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/permeability/</loc>
+    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/porosity/</loc>
+    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2020-12-28-porosity-permeability-relationships-using-linear-regression-in-python/</loc>
+    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2020-11-01-exploratory-data-analysis-with-well-log-data/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/categories/data-quality/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://andymcdgeo.github.io/blog/2020-10-26_las-file-loading/2020-10-26-las-file-load-and-display/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/matplotlib/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/missing-data/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2020-10-26-visualising-well-data-coverage-using-matplotlib/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/normalisation/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2020-10-18-petrophysics-gamma-ray-normalisation-in-python/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/categories/las-files/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/tags/lasio/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://andymcdgeo.github.io/blog/2020-08-30-loading-and-displaying-well-log-data-from-las-files-with-python/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://andymcdgeo.github.io/projects/projects/</loc>
   </url><url>
