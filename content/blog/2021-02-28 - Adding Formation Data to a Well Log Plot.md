@@ -106,7 +106,7 @@ Below the following code snippet, I have explained some of the key sections that
 **Lines 3–10 **sets up the log tracks. Here, I am using subplot2grid to control the number of tracks. suplot2grid((1,10), (0,0), rowspan=1, colspan=3) translates to creating a plot that is 10 columns wide, 1 row high and the first few axes spans 3 columns each. This allows us to control the width of each track.
 
 The last track (ax5) will be used to plot our formation tops information.
-
+```python
     fig, ax = plt.subplots(figsize=(15,10))
 
     #Set up the plot axes
@@ -115,15 +115,18 @@ The last track (ax5) will be used to plot our formation tops information.
         ax3 = plt.subplot2grid((1,10), (0,6), rowspan=1, colspan = 3, sharey = ax1)
         ax4 = ax3.twiny() 
         ax5 = plt.subplot2grid((1,10), (0,9), rowspan=1, colspan = 1, sharey = ax1)
+```
 
 **Lines 14–19** adds a second set of the axis on top of the existing one. This allows maintaining a border around each track when we come to detach the scale.
 
+```python
         ax10 = ax1.twiny()
         ax10.xaxis.set_visible(False)
         ax11 = ax2.twiny()
         ax11.xaxis.set_visible(False)
         ax12 = ax3.twiny()
         ax12.xaxis.set_visible(False)
+```
 
 **Lines 21–49 **set up the gamma ray track. First, we use ax1.plot to set up the data, line width, and color. Next, we set up the x-axis with a label, an axis color, and a set of limits.
 
