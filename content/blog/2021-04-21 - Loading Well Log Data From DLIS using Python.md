@@ -58,7 +58,8 @@ The first step with any project is to load in the libraries that we want to use.
 
 Also, as we will be working with dataframes to view parameters, which can be numerous, we need to change the maximum number of rows that will be displayed when that dataframe is called. This is achieved by pd.set_option('display.max_rows', 500).
 
- <iframe src="https://medium.com/media/57780bf0c43e9f436a8674648d5f8e0e" frameborder=0></iframe>
+ <!-- <iframe src="https://medium.com/media/57780bf0c43e9f436a8674648d5f8e0e" frameborder=0></iframe> -->
+ {{< gist andymcdgeo 78d5d97689267e480f22c03571b106f7 >}}
 
 ## Loading a DLIS File
 
